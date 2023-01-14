@@ -187,7 +187,7 @@
 		/******************************************************************************************************* */
 		public function selectWhereRetard ($idretard){
 			if($this->unPDO != null){
-				$requete = 'select r.DATE_HEURER, r.DUREE, r.HEURE
+				$requete = 'select r.DATE, r.DUREE, r.HEURE
 				from retard r, billet_de_retard b, etudiant e
 				where r.IDR=b.IDR
 				and b.IDE="'.$idretard.'"

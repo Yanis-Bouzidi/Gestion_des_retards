@@ -24,6 +24,6 @@
     <div class="container-3">
         <a href="index.php?page=gerer" class="Button-2">Gérer les élève</a>
         <a href="index.php?page=flux" name="flux" class="Button-2">Flux RSS</a>
-        <a href="modifier_billets.php" class="Button-2" >Billets de retards</a>
+        <a href="index.php?page=gerer_eleve" class="Button-2" >Billets de retards</a>
     </div>
 </body>
