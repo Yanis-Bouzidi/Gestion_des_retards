@@ -57,6 +57,16 @@ h3 {
   padding-bottom: 0.4rem;
 }
 
+.h3-2 {
+  font-size: 1.4rem;
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 9px;
+  padding-bottom: 0.4rem;
+  padding-left: 0.6rem;
+}
+
 h4 {
   font-size: 0.8rem;
   margin: 0;
@@ -613,4 +623,30 @@ nav ul {
   border: solid var(--red);
   padding: 8px;
   border-radius: 8px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  border-radius: 6px;
+  width: 42rem;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+  left: 90%;
+  margin-left: -60px;
+  border: solid;
+  border-width: 1px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
