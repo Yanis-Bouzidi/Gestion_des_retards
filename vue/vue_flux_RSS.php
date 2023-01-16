@@ -1,8 +1,3 @@
-<?php
-require("api.php");
-?>
-
-
 <div class="container-5">
         <a href="index.php?page=menu_admin" class="Button-3"> ⬅ Retour</a>
         <a href="index.php?page=deconnexion" class="Button-3"> Déconnexion
